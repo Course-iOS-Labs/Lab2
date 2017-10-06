@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  lab3
 //
 //  Created by excel on 10/5/17.
@@ -9,9 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "ClearTextDeleget.h"
 
-@interface ViewController : UIViewController <ClearTextDeleget>
-
-@property (weak, nonatomic) IBOutlet UITextField *MyInput;
-
+@interface TableViewController : UITableViewController <ClearTextDeleget>
+@property NSMutableArray *males, *females;
 @end
-

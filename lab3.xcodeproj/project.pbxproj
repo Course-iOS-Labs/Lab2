@@ -15,6 +15,10 @@
 		5CEA539F1F863EAA00B3732E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA539D1F863EAA00B3732E /* LaunchScreen.storyboard */; };
 		5CEA53AA1F863EAB00B3732E /* lab3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA53A91F863EAB00B3732E /* lab3Tests.m */; };
 		5CEA53B51F863EAB00B3732E /* lab3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA53B41F863EAB00B3732E /* lab3UITests.m */; };
+		5CEA53C41F86426900B3732E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA53C31F86426900B3732E /* SecondViewController.m */; };
+		5CEA54091F864E6600B3732E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA54081F864E6600B3732E /* TableViewController.m */; };
+		5CEA54111F86535C00B3732E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA54101F86535C00B3732E /* Person.m */; };
+		5CEA54141F865A3400B3732E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA54131F865A3400B3732E /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		5CEA53B01F863EAB00B3732E /* lab3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEA53B41F863EAB00B3732E /* lab3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lab3UITests.m; sourceTree = "<group>"; };
 		5CEA53B61F863EAB00B3732E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEA53C21F86426900B3732E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5CEA53C31F86426900B3732E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5CEA53C51F86476200B3732E /* ClearTextDeleget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearTextDeleget.h; sourceTree = "<group>"; };
+		5CEA54071F864E6600B3732E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5CEA54081F864E6600B3732E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5CEA540F1F86535C00B3732E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5CEA54101F86535C00B3732E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5CEA54121F865A3400B3732E /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5CEA54131F865A3400B3732E /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,15 @@
 		5CEA53831F863EAA00B3732E = {
 			isa = PBXGroup;
 			children = (
+				5CEA54121F865A3400B3732E /* ThirdViewController.h */,
+				5CEA54131F865A3400B3732E /* ThirdViewController.m */,
+				5CEA540F1F86535C00B3732E /* Person.h */,
+				5CEA54101F86535C00B3732E /* Person.m */,
+				5CEA54071F864E6600B3732E /* TableViewController.h */,
+				5CEA54081F864E6600B3732E /* TableViewController.m */,
+				5CEA53C51F86476200B3732E /* ClearTextDeleget.h */,
+				5CEA53C21F86426900B3732E /* SecondViewController.h */,
+				5CEA53C31F86426900B3732E /* SecondViewController.m */,
 				5CEA538E1F863EAA00B3732E /* lab3 */,
 				5CEA53A81F863EAB00B3732E /* lab3Tests */,
 				5CEA53B31F863EAB00B3732E /* lab3UITests */,
@@ -273,9 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CEA54111F86535C00B3732E /* Person.m in Sources */,
+				5CEA53C41F86426900B3732E /* SecondViewController.m in Sources */,
 				5CEA53971F863EAA00B3732E /* ViewController.m in Sources */,
 				5CEA53941F863EAA00B3732E /* AppDelegate.m in Sources */,
+				5CEA54091F864E6600B3732E /* TableViewController.m in Sources */,
 				5CEA53911F863EAA00B3732E /* main.m in Sources */,
+				5CEA54141F865A3400B3732E /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lab3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = excelcodes.lab3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lab3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = excelcodes.lab3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +537,7 @@
 				5CEA53BB1F863EAB00B3732E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CEA53BC1F863EAB00B3732E /* Build configuration list for PBXNativeTarget "lab3Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +546,7 @@
 				5CEA53BE1F863EAB00B3732E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CEA53BF1F863EAB00B3732E /* Build configuration list for PBXNativeTarget "lab3UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +555,7 @@
 				5CEA53C11F863EAB00B3732E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
