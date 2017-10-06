@@ -14,6 +14,7 @@
 
 @property bool showAddButton;
 @property Person *person;
+@property bool gender;
 @property id <ClearTextDeleget> myDelegate;
 @property (weak, nonatomic) IBOutlet UITextField *nameLabel;
 @property (weak, nonatomic) IBOutlet UITextField *ageLabel;
@@ -21,5 +22,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *phoneLabel;
 @property (weak, nonatomic) IBOutlet UITextField *addressLabel;
 @property (weak, nonatomic) IBOutlet UISwitch *genderLabel;
+
+- (void) disableTextFields;
+- (void) enableTextFields;
 
 @end

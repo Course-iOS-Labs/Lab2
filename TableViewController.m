@@ -93,9 +93,11 @@
     switch (indexPath.section) {
         case 0:
             [third setPerson:[_males objectAtIndex:indexPath.row]];
+            [third setGender:true];
             break;
         case 1:
             [third setPerson:[_females objectAtIndex:indexPath.row]];
+            [third setGender:false];
             break;
             
         default:
